@@ -1,6 +1,3 @@
-from televisores.tv import TV
-from televisores.control import Control
-
 class Marca:
     
     def __init__(self, nombre):

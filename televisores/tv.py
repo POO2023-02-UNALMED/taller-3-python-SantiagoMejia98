@@ -1,6 +1,3 @@
-from televisores.marca import Marca
-from televisores.control import Control
-
 class TV:
 
     _canal = 1
@@ -11,7 +8,7 @@ class TV:
     def __init__(self, marca, estado):
         self._marca = marca
         self._estado = estado
-        _numTV += 1
+        TV._numTV += 1
 
     def setMarca(self, marca):
         self._marca = marca
